@@ -1,27 +1,40 @@
-Fake News Detection Using Python & Machine Learning
+# Fake News Detection with Machine Learning & Explainable AI (XAI) 📰🤖
 
-Deep Learning & Machine Learning Playlist👉🏻 https://www.youtube.com/playlist?list=PLWyN7K28ZraSdSdTvQEDKPta5PATUmaiT
+This project builds an end-to-end **Fake News Detection** pipeline using NLP, classical machine learning models, and **SHAP-based explainability**.  
+It includes data preprocessing, model training, evaluation, and a **Streamlit web app** for real-time prediction.
 
-PART 01: Brain Tumor Detection Using Deep Learning 👉🏻 https://youtu.be/pp61TbhJOTg
+---
 
-PART 02: Brain Tumor Detection Using Deep Learning 👉🏻 https://youtu.be/8GSwtOJw_1M
+## 🚀 Key Features
 
-Deep Learning For Health Care👉🏻 https://www.youtube.com/playlist?list=PLWyN7K28ZraStL8fr0eQmr6VwAiahQStd
+- Text cleaning, stopword removal, and stemming using **NLTK**
+- TF-IDF feature extraction with **scikit-learn**
+- Classical ML models for binary classification (Real vs Fake)
+- **SHAP** visualisations to explain model decisions
+- Interactive **Streamlit** UI for users to paste news text and see predictions
+- Flask deployment experiment included (`flask app/`)
 
-🔥Face Mask Detection Using Python, Keras, OpenCV and Tensorflow| Detect Masks Real-time Video Streams👉🏻https://youtu.be/4WmLOAd1BvY
+---
 
-🔥 Python Project: Automate Hill Climb Racing Game Using Python 👉🏻 https://youtu.be/ZBtk3GmJMTE
+## 🧠 Tech Stack
 
-💥 LED Controller Using Python And Ardunio 👉 https://youtu.be/fwMjVZhM08s
+- Python 3
+- scikit-learn
+- pandas, numpy
+- NLTK
+- SHAP
+- Streamlit
+- Flask (alternative deployment)
 
-I'm on Instagram as @knowledge_doctor.
+---
 
-Follow Me On Instagram : https://www.instagram.com/invites/contact/?i=f9n3ongbu8ma&utm_content=jresydt
+## 📁 Project Structure
 
-Like My Facebook Page:
-
-https://www.facebook.com/Knowledge-Doctor-Programming-114082097010409/
-
-Discuss With Me, Join Discord Server,
-
-https://discord.gg/67AKGPPRsh
+```text
+app/           # Streamlit app + trained model and vectorizer
+data/          # Datasets (Fake/True news, train/test splits, Politifact data)
+flask app/     # Flask-based deployment experiment
+images/        # Plots and screenshots (used in README / documentation)
+notebooks/     # Jupyter notebooks for exploration and model training
+README.md
+requirements.txt
